@@ -32,6 +32,7 @@ VIEWER_MAPPING = {
   "sensor_msgs/PointCloud2": ("librosshow.viewers.sensor_msgs.PointCloud2Viewer", "PointCloud2Viewer", {}),
   "sensor_msgs/Range": ("librosshow.viewers.generic.SinglePlotViewer", "SinglePlotViewer", {"data_field": "range"}),
   "sensor_msgs/Temperature": ("librosshow.viewers.generic.SinglePlotViewer", "SinglePlotViewer", {"data_field": "temperature"}),
+  "geometry_msgs/Twist": ("librosshow.viewers.geometry_msgs.TwistViewer", "TwistViewer", {}),
 }
 
 def capture_key_loop(viewer):
